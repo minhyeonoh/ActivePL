@@ -1,258 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html class="theme-light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
 
-<head>
-  <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+  </head>
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-  <title>Comparison-based Active Preference Learning for Multi-dimensional Personalization</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
-</head>
-
-<body>
-
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">
-            Comparison-based Active Preference Learning for Multi-dimensional Personalization
-          </h1>
-          <!-- Paper authors -->
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="minhyeon.oh@postech.ac.kr" target="_blank">Minhyeon Oh</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="sjlee1218@postech.ac.kr" target="_blank">Seungjoon Lee</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="jungseul@postech.ac.kr" target="_blank">Jungseul Ok</a><sup>1</sup>
-            </span>
-          </div>
-          <!-- Affiliation -->
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <sup>1</sup>Pohang University of Science and Technology, South Korea
-            </span>
-          </div>
-          <!-- E-mail -->
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <span class="icon">
-                  <i class="fa fa-envelope"></i>
-              </span>
-              {minhyeon.oh, sjlee1218, jungseul}@postech.ac.kr
-            </span>
-          </div>
-          <!-- Conference -->
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              Arxiv 2024
-            </span>
-          </div>
-
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- Paper link -->
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2411.00524"
-                   target="_blank"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>
+  <body>
+    <!-- Title and authores -->
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column is-two-thirds has-text-centered">
+              <!-- Authors and affiliation -->
+              <div class="block">
+                ACL 2025
+              </div>
+              <h1 class="title is-1">
+                Comparison-based Active Preference Learning for Multi-dimensional Personalization
+              </h1>
+              <!-- Authors and affiliation -->
+              <div class="block">
+                <p>
+                  <a href="minhyeon.oh@postech.ac.kr" target="_blank">Minhyeon Oh</a><sup>1</sup>,
+                  <a href="sjlee1218@postech.ac.kr" target="_blank">Seungjoon Lee</a><sup>1</sup>,
+                  <a href="jungseul@postech.ac.kr" target="_blank">Jungseul Ok</a><sup>1</sup>
+                </p>
+                <p>
+                  <sup>1</sup>Pohang University of Science and Technology, South Korea
+                </p>
+                <p>
+                  {minhyeon.oh, sjlee1218, jungseul}@postech.ac.kr
+                </p>
+              </div>
+              <!-- Buttons -->
+              <div class="block">
+                <div class="buttons is-centered">
+                  <button class="button is-rounded has-background-text-soft has-foreground-text-bold">
                     Paper
-                  </span>
-                </a>
-              </span>
-              <!-- Github link -->
-              <span class="link-block">
-                <a href="https://github.com" 
-                   target="_blank"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <span>
+                  </button>
+                  <button class="button is-rounded has-background-text-soft has-foreground-text-bold">
                     Code
-                  </span>
-                </a>
-              </span>
-              <!-- ArXiv abstract Link -->
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2411.00524" 
-                   target="_blank"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>
-                    arXiv
-                  </span>
-                </a>
-              </span>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <figure class="image is-inline-block" style="margin-bottom: 1em;">
-        <img src="static/images/carousel1.jpg" style="width: 60em; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-      </figure>
+    </section>
+    <!-- Main texts -->
+    <div class="container">
       <div class="columns is-centered">
-        <div class="column is-four-fifths">
-          <p style="text-align: center; font-size:larger;">
-            Main message here
-          </p>
+        <div class="column is-half">
+          <article>
+            <p>
+              Large language models (LLMs) have shown remarkable success, but aligning them with human preferences remains a core challenge. As individuals have their own, multi-dimensional preferences, recent studies have explored multi-dimensional personalization, which aims to enable models to generate responses personalized to explicit preferences. However, human preferences are often implicit and thus difficult to articulate, limiting the direct application of this approach. To bridge this gap, we introduce a comparison-based active preference learning framework to capture implicit user preferences. Building on Bayesian inference, our work introduces a modified posterior update procedure to mitigate estimation bias and potential noise in comparisons. Also, inspired by generalized binary search, we employ an active query selection strategy to minimize the number of required comparisons by a user. Through theoretical analysis and experiments on language generation tasks, we demonstrate feedback efficiency and effectiveness of our framework in personalizing model responses.
+            </p>
+          <!-- </section> -->
+          <!-- <section class="section"> -->
+            <h1 class="title is-3">
+              Individual user preferences are diverse and implicit
+            </h1>
+            <p>
+              ...
+            </p>
+          <!-- </section> -->
+          <!-- <section class="section"> -->
+            <h1 class="title is-3">
+              User preferences are multi-dimensional
+            </h1>
+            <p>
+              ...
+            </p>
+          <!-- </section> -->
+          <!-- <section class="section"> -->
+            <h1 class="title is-3">
+              Active preference learning for multi-dimensional personalization
+            </h1>
+            <p>
+              ...
+            </p>
+          <!-- </section> -->
+          <!-- <section class="section"> -->
+            <h2 class="title is-4">
+              User profile estimation via modified posterior updates
+            </h2>
+            <p>
+              Using our modified posterior update procedure, we can handle potential common estimation bias in previous works and account for the possibility of noisy user feedback.
+            </p>
+            <figure class="image is-fullwidth">
+              <img src="https://bulma.io/assets/images/placeholders/128x128.png" />
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non fringilla tellus. Etiam euismod pretium lectus, eu gravida nunc interdum ut. Nulla aliquam nunc elit, quis accumsan nulla semper non.
+              </figcaption>
+            </figure>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non fringilla tellus. Etiam euismod pretium lectus, eu gravida nunc interdum ut. Nulla aliquam nunc elit, quis accumsan nulla semper non. Cras molestie non elit non sollicitudin. Praesent lorem mauris, pulvinar quis lacinia eget, dapibus id elit. Mauris rhoncus erat vel odio interdum semper. Integer condimentum mollis arcu, vel fermentum risus fermentum eu. Sed vel lectus in quam finibus ultrices. Nam scelerisque posuere euismod. Morbi lacinia quam eget dui semper, ac egestas felis pulvinar. Mauris eleifend ipsum in dolor ullamcorper, id lobortis felis pretium. Suspendisse sed pellentesque elit, rutrum faucibus dolor.
+            </p>
+            <div class="fullwidth">
+              <div class="columns is-centered">
+                <div class="column is-two-thirds">
+                  <figure class="image is-fullwidth">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Herjangsfjorden_%26_Ofotfjorden%2C_wide%2C_2009_09.jpg" />
+                    <figcaption>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non fringilla tellus. Etiam euismod pretium lectus, eu gravida nunc interdum ut. Nulla aliquam nunc elit, quis accumsan nulla semper non.
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non fringilla tellus. Etiam euismod pretium lectus, eu gravida nunc interdum ut. Nulla aliquam nunc elit, quis accumsan nulla semper non. Cras molestie non elit non sollicitudin. Praesent lorem mauris, pulvinar quis lacinia eget, dapibus id elit. Mauris rhoncus erat vel odio interdum semper. Integer condimentum mollis arcu, vel fermentum risus fermentum eu. Sed vel lectus in quam finibus ultrices. Nam scelerisque posuere euismod. Morbi lacinia quam eget dui semper, ac egestas felis pulvinar. Mauris eleifend ipsum in dolor ullamcorper, id lobortis felis pretium. Suspendisse sed pellentesque elit, rutrum faucibus dolor.
+            </p>
+          <!-- </section> -->
+          <!-- <section class="section"> -->
+            <h2 class="title is-4">
+              Active query selection
+            </h2>
+            <p>
+              To minimize the amount of required user feedback, we request a query that ...
+            </p>
+          </article>
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-four-fifths has-text-centered">
-        <h2 class="title is-3">
-          Abstract
-        </h2>
-        <div class="content has-text-justified">
-          <p style="font-size:large;">
-            Large language models (LLMs) have shown remarkable success, but their full potential can only be unlocked through careful <em>alignment</em> with human values and preferences. As human preferences are multi-dimensional, and individuals have their own preferences, recent techniques for <em>multi-dimensional personalization</em> have enabled models to generate responses personalized to <em>explicit</em> multi-dimensional preferences. However, human preferences are often <em>implicit</em> and thus hard to articulate, limiting the direct application of these techniques. To address this challenge, we propose a comparison-based active preference learning framework to capture implicit user preferences. Building on Bayesian inference, our work introduces a modified posterior update procedure to handle potential convergence issues in previous works and account for the possibility of incorrect user feedback. Also, inspired by generalized binary search, we employ an active query selection strategy to minimize the number of required comparisons. We validate our approach through theoretical analysis and experiments on language generation tasks, demonstrating its feedback efficiency and effectiveness in personalizing model responses.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <h2 class="title is-3">
-        A title
-      </h2>
-      <div class="level-set has-text-justified">
-        <p style="font-size:large;">
-          Texts
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <h2 class="title is-3">
-        Using a handful of comparisons
-      </h2>
-      <div class="level-set has-text-justified">
-        <p style="font-size:large;">
-          Texts
-        </p>
-      </div>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item">
-          <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-          <h2 class="subtitle has-text-centered">
-            First image description.
-          </h2>
-        </div>
-        <div class="item">
-          <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-          <h2 class="subtitle has-text-centered">
-            Second image description.
-          </h2>
-        </div>
-        <div class="item">
-          <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-          <h2 class="subtitle has-text-centered">
-            Third image description.
-          </h2>
-        </div>
-        <div class="item">
-          <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-          <h2 class="subtitle has-text-centered">
-            Fourth image description.
-          </h2>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">
-      BibTeX
-    </h2>
-    <pre><code>BibTex Code Here</code></pre>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-</body>
+  </body>
 </html>

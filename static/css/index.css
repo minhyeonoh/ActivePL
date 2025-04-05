@@ -1,138 +1,37 @@
-body {
-  font-family: 'PT Sans', sans-serif;
-  /* text-align: left; */
+* {
+  font-family: "Inter";
 }
 
+/* title {
+  font-family: "Readex Pro";
+} */
 
-.footer .icon-link {
-    font-size: 25px;
-    color: #000;
+
+.is-1, .is-2, .is-3, .is-4, .is-5, .is-6 {
+  font-family: "Readex Pro";
+  font-weight: 500;
+  font-style: normal;
 }
 
-.link-block a {
-    margin-top: 5px;
-    margin-bottom: 5px;
+.is-3, .is-4 {
+  margin-top: 5rex;
 }
 
-.dnerf {
-  font-variant: small-caps;
+.fullwidth {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  max-width: 1000%;
+  width: auto;
 }
 
-
-.teaser .hero-body {
-  padding-top: 0;
-  padding-bottom: 3rem;
+figure {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-.teaser {
-  font-family: 'PT Sans', sans-serif;
+figcaption {
+  font-family: "Readex Pro";
+  font-weight: 300;
+  font-size: small;
+  margin-top: 1rem;
 }
-
-
-.publication-title {
-}
-
-.publication-banner {
-  max-height: parent;
-
-}
-
-.publication-banner video {
-  position: relative;
-  left: auto;
-  top: auto;
-  transform: none;
-  object-fit: fit;
-}
-
-.publication-header .hero-body {
-}
-
-.publication-title {
-    font-family: 'PT Sans', sans-serif;
-}
-
-.publication-authors {
-    font-family: 'PT Sans', sans-serif;
-}
-
-.publication-venue {
-    color: #555;
-    width: fit-content;
-    font-weight: bold;
-}
-
-.publication-awards {
-    color: #ff3860;
-    width: fit-content;
-    font-weight: bolder;
-}
-
-.publication-authors {
-}
-
-.publication-authors a {
-   color: hsl(204, 86%, 53%) !important;
-}
-
-.publication-authors a:hover {
-    text-decoration: underline;
-}
-
-.author-block {
-  display: inline-block;
-}
-
-.publication-banner img {
-}
-
-.publication-authors {
-  /*color: #4286f4;*/
-}
-
-.publication-video {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-
-    overflow: hidden;
-    border-radius: 10px !important;
-}
-
-.publication-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.publication-body img {
-}
-
-.results-carousel {
-  overflow: hidden;
-}
-
-.results-carousel .item {
-  margin: 5px;
-  overflow: hidden;
-  padding: 20px;
-  font-size: 0;
-}
-
-.results-carousel video {
-  margin: 0;
-}
-
-.slider-pagination .slider-page {
-  background: #000000;
-}
-
-.eql-cntrb { 
-  font-size: smaller;
-}
-
-
-
