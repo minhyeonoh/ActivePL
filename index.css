@@ -3,6 +3,10 @@
   margin-top: 2rem;
 }
 
+img {
+  border-radius: 10px;
+}
+
 .fullwidth {
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
@@ -18,6 +22,6 @@ figure {
 }
 
 figcaption {
+  margin-top: 0.5rem;
   font-size: small;
-  margin-top: 1rem;
 }
