@@ -1,0 +1,23 @@
+
+.title {
+  margin-top: 2rem;
+}
+
+.fullwidth {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  max-width: 1000%;
+  width: auto;
+}
+
+figure {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  font-size: small;
+  margin-top: 1rem;
+}
